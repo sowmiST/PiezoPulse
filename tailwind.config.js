@@ -1,0 +1,32 @@
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#e6f7ff',
+          100: '#bae7ff',
+          500: '#1890ff',
+          600: '#096dd9',
+          700: '#0050b3',
+        },
+        success: {
+          500: '#52c41a',
+          600: '#389e0d',
+        },
+        warning: {
+          500: '#faad14',
+          600: '#d48806',
+        },
+        danger: {
+          500: '#ff4d4f',
+          600: '#cf1322',
+        }
+      }
+    },
+  },
+  plugins: [],
+}
